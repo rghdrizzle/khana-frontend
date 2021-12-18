@@ -216,3 +216,26 @@
     color: wheat;
     margin-bottom: 15%;
 }
+.mybookhead{
+    font-family: 'bsteel';
+    margin: 4% 25%;
+    text-align: center;
+    color: #b4868e;
+}
+.accordion{
+    margin: 1% 25%;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.accordion-button{
+    color: #b4868e;
+    font-family: 'roboto';
+    padding-left: 43%;
+    background: linear-gradient(33deg,rgb(250, 206, 214),rgb(247, 243, 243));
+}
+.accordion-button:focus,.accordion-button:active{
+    color: rgb(104, 10, 104);
+}
+.accordion-body{
+    color: rgb(65, 28, 65);
+}
