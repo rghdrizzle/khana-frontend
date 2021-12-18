@@ -4,9 +4,9 @@ import Show from './mycomp/Show';
 import About from './mycomp/About';
 import Footer from './mycomp/Footer';
 import Login from './mycomp/Login';
-import Search from './mycomp/Search';
 import List from './mycomp/List';
 import Vlogs from './mycomp/Vlogs';
+import Land from './mycomp/Land';
 
 import {
   BrowserRouter as Router,
@@ -17,7 +17,6 @@ import {
 } from "react-router-dom";
 import Errorpg from './mycomp/Errorpg';
 
-
 function App() {
   return (
     <>
@@ -27,7 +26,7 @@ function App() {
         <Route path='/lists' element={<List/>}/>
         <Route path="/vlogs" element={<Vlogs/>}/>   
         <Route path="/abouts" element={<About/>}/>   
-        <Route path="/searchl" element={<Search/>}/>
+        <Route path="/searchl" element={<Land/>}/>
         <Route path="/logins" element={<Login/>}/>   
         <Route path="/showl" element={<Show/>}/>   
         <Route path="*" element={<Errorpg/>}/>   

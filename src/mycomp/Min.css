@@ -31,6 +31,7 @@
     font-weight: 500;
 }
 .foot{
+
     font-family: "bsteel";
     color: #94b1be;
     word-spacing: 0.7vw;
@@ -78,3 +79,54 @@
 .resta:hover h1{
     filter: brightness(0.01);
 }
+.input{
+  background-image: url(./img/foodin.jpg);
+  filter: contrast(40%);
+  padding: 15% 35%;
+}
+.input-group{
+  filter: brightness(1.5);
+}
+.bt-0{
+    color:#6b5969;
+    font-family: 'roboto';
+    font-weight: bolder;
+    border: rgb(0, 0, 0) solid 2px;}
+
+.bt-1{
+    font-family: 'roboto';
+    font-weight: 900;
+    border: black solid 2px;
+    color:#92738e;
+
+}
+.bt-2{
+    font-family: 'roboto';
+    font-weight: 900;
+    border: black solid 2px;
+    color:#584646;
+    font-size: 11px;
+
+}
+.bt-3{
+    font-family: 'roboto';
+    font-weight: 900;
+    border: black solid 2px;
+    color:#584646;}
+.btn-4{
+      
+    height: 50px;
+    border-color: #96518d ;
+    border: 3px solid #29001f;
+    font-family: "roboto" ;
+    color: #000000;
+    background: rgb(253, 146, 164);
+}
+.btn-4:hover{
+    color: rgb(252, 151, 255);
+    background: black;
+}
+.error{
+    padding: 20%;
+}
+

@@ -36,7 +36,7 @@
     transform: rotate(360deg);
   }
 }
-
+/*
 .btn {
   background-color: #1d1bb8;
   color: #fff;
@@ -47,6 +47,7 @@
   font-size: 0.7em;
 }
 .search-bar {
+  top: 50%;
   display: grid;
   grid-template-columns: 4fr 1fr;
   grid-gap: 1em;
@@ -86,3 +87,4 @@
 
 .search-box:focus .search-icon {
   color:black;}
+*/
