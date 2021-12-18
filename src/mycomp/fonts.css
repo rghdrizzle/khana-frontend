@@ -14,7 +14,7 @@
 }
 @font-face {
     font-family: "bsteel";
-    src: url("../fonts/hff-black-steel/HFF-Black-Steel.ttf");
+    src: url('../fonts/hff-black-steel/HFF-Black-Steel.ttf');
 }
 @font-face {
     font-family: "thai";
@@ -27,4 +27,8 @@
 @font-face {
     font-family: "robo";
     src: url("../fonts/roblox/Roblox-Font-Bold.ttf");
+}
+@font-face {
+    font-family: "ele";
+    src: url("../fonts/elegant/Antipasto-ExtraLightTrial.ttf");
 }

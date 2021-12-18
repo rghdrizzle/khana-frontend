@@ -1,12 +1,23 @@
 @import url(./fonts.css);
 
 .navbar{
-    background-color: #8381bb;
+    background-color: rgb(73, 18, 80);
 }
 .navbar-brand{
     font-family: "robo";
     font-size: 2rem;
     letter-spacing: 0.5rem;
+    color: wheat;
+}
+.navbar-brand:hover{
+    color: saddlebrown;}
+
+.nav-link{
+    color:rgb(149, 126, 161);
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: wheat;
 }
 .header_area .main-menu .navbar .navbar-brand{
     padding:0 2rem 0 5rem  ;
@@ -31,4 +42,39 @@
     letter-spacing: 0.5rem;
     color: violet;
 }
-/* end navigation */
+.lists{
+    background: linear-gradient(195deg,rgb(212, 154, 226),rgb(110, 47, 155));
+}
+.listres{
+    margin: 3%;
+    font-family: "Merriweather";
+    color: rgb(48, 18, 46);
+}
+.resta{
+    display: flex;
+    justify-content: center;
+    border: 3px solid #3d0030;
+    text-align: center;
+    padding: 2rem 2rem;
+    margin: 2rem 0rem;
+    cursor: pointer;
+    transition:transform .4s ease;
+    font-family: "ele";}
+.ares{
+    text-decoration: none;
+    color:rgb(95, 72, 30);
+}
+.ares:hover{
+    text-decoration: none;
+    color:rgb(39, 31, 17);
+}
+.resta {
+    width: 100%;
+}
+.resta:hover{
+    box-shadow: 10px 5px 20px  black ;
+    transform: scale(1.15);
+}
+.resta:hover h1{
+    filter: brightness(0.01);
+}

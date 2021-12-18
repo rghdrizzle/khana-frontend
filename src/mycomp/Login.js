@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function Login() {
     return (
-        <div>
-            
-        </div>
+        <>
+            <img src="./img/foodin.jpg"/>
+        </>
     )
 }
+
