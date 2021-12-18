@@ -15,13 +15,16 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/searchl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reservation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+              <Link className="nav-link active" aria-current="page" to="/searchl">&nbsp;&nbsp;Reservation&nbsp;&nbsp;&nbsp;&nbsp;</Link>
             </li>
             <li className="nav-item">
-              <Link class="nav-link" to="/vlogs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vlog&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+              <Link class="nav-link" to="/vlogs">&nbsp;&nbsp;&nbsp;&nbsp;Vlog&nbsp;&nbsp;&nbsp;&nbsp;</Link>
             </li>
             <li className="nav-item">
-              <Link class="nav-link" to="abouts">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+              <Link class="nav-link" to="/abouts">&nbsp;&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+            </li>
+            <li className="nav-item">
+              <Link class="nav-link" to="/mybook">&nbsp;&nbsp;&nbsp;&nbsp;My Bookings&nbsp;&nbsp;&nbsp;&nbsp;</Link>
             </li>
             </ul>
           </div>

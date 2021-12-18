@@ -3,7 +3,7 @@ import React from 'react'
 export default function Search()  {
     return (
       <>
-        <form action="reservation.php" method="post">
+        <form action="" method="post">
         <div class="input">
           <div class="input-group">
             <label for="area"></label>
